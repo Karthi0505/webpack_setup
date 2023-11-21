@@ -1,0 +1,44 @@
+{
+  "products": [
+    { 
+      "_id": "fish1",
+      "title": "Fish 1",
+      "image": "/images/vanjaram.jpg",
+      "description": "about fish 1",
+      "price": 200,
+      "availableSizes": ["s"]
+    },
+    { 
+      "_id": "fish2",
+      "title": "Fish 2",
+      "image": "/images/yellow-fishes.jpg",
+      "description": "about fish 2",
+      "price": 250,
+      "availableSizes": ["m", "l"]
+    },
+    { 
+      "_id": "fish3",
+      "title": "Fish 3",
+      "image": "/images/grill-fishes.jpg",
+      "description": "about fish 3",
+      "price": 300,
+      "availableSizes": ["m"]
+    },
+    { 
+      "_id": "fish4",
+      "title": "Fish 4",
+      "image": "/images/cut-fishes.jpg",
+      "description": "about fish 4",
+      "price": 350,
+      "availableSizes": ["s", "m", "l"]
+    },
+    { 
+      "_id": "crab1",
+      "title": "Crab 1",
+      "image": "/images/crab.jpg",
+      "description": "about fish 4",
+      "price": 350,
+      "availableSizes": ["s", "m", "l"]
+    }
+  ]
+}

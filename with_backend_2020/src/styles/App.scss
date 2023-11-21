@@ -1,0 +1,124 @@
+//@import "node_modules/bootstrap/scss/bootstrap";
+
+// Required
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+
+// Optional_utilities;
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/grid";
+@import "node_modules/bootstrap/scss/utilities/display";
+@import "node_modules/bootstrap/scss/utilities/flex";
+@import "node_modules/bootstrap/scss/utilities/text";
+@import "node_modules/bootstrap/scss/buttons";
+@import "node_modules/bootstrap/scss/card";
+@import "node_modules/bootstrap/scss/utilities/spacing";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/media";
+@import "node_modules/bootstrap/scss/modal";
+
+
+@import "./custom-bootstrap";
+
+$font-size: 1rem;
+$karthi: red;
+
+/*Colors*/
+
+
+
+
+html {
+  font-size: $font-size;
+  color: $karthi
+}
+
+body,
+#root {
+  height: 100vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "header"
+  "main"
+  "footer";
+  grid-template-rows: 5rem 1fr 5rem;
+  grid-template-columns: 1fr;
+  height: 100%;
+}
+header {
+  grid-area: header;
+  background-color: $theme-bg;
+  color: $white;
+}
+main {
+  grid-area: main;
+}
+footer {
+  grid-area: footer;
+  background-color: $theme-bg;
+  color: $white;
+}
+
+/*-- Product CSS --*/
+ul.products {
+  list-style: none;
+  padding-left: initial;
+}
+.product_title {
+  margin-top: 5px;
+}
+.product_price {
+  color: #B12704;
+}
+button.product_addToCart {
+  margin-top: 5px;
+}
+.product-price .priceAmount {
+  color: #B12704;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/*-- Sidebar CSS --*/
+.cart .cart_header{
+  border-bottom: 1px solid #dee2e6
+}
+.cart ul.cart_items{
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+.cart ul.cart_items img{
+  width: 5rem;
+}
+.cart ul.cart_items li {
+  display: flex;
+}
+.cart .total {
+
+}
+.cart .total > div{
+  font-size: 1.5rem;;
+}
+
+/*--  --*/
+.modal .product-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.modal .product-details img {
+  width: 100%;
+  margin: 0 auto;
+}
+.modal .product-details .product-details_description {
+  flex: 1 1;
+  margin: 1rem;
+}
+.modal .product-details .product-details_description p { 
+  margin-bottom: 5px;
+}
