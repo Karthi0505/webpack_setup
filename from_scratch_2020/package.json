@@ -1,0 +1,37 @@
+{
+  "name": "kadal2kitchen",
+  "version": "0.0.0",
+  "description": "This is a Fish selling ecommerce website",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-hot-loader": "^4.3.11"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development"
+  },
+  "keywords": [
+    "Ecommerce",
+    "Fish",
+    "Sea",
+    "Kitchen"
+  ],
+  "author": "Karthi <karthi.uideveloper@gmail.com> (http://welearnfree.com/)",
+  "license": "ISC"
+}
